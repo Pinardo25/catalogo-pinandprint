@@ -1,8 +1,8 @@
 export default function Banner() {
     return (
 
-        <div className="banner bg-[var(--moradoPrint)] border-t-[3px] border-b-[3px] border-[var(--negroPrint)] py-16 px-8 text-center relative overflow-hidden">
-            {/* .banner */}
+        
+            
             <div className="banner bg-[var(--moradoPrint)] border-t-[3px] border-b-[3px] border-[var(--negroPrint)] py-16 px-8 text-center relative overflow-hidden">
 
                 {/* .banner-inner */}
@@ -22,6 +22,5 @@ export default function Banner() {
 
                 </div>
             </div>
-        </div>
             );
 }

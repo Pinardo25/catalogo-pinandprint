@@ -5,7 +5,8 @@ import {Filtro} from "../components/filtro";
 import {Marque} from "../components/marque";
 import Catalogo from "../components/catalogo";
 import Banner from "../components/banner";
-
+import Feature from "../components/feature";
+import Footer from "../components/footer";
 
 export default function Home() {
   return (
@@ -16,6 +17,8 @@ export default function Home() {
       <Filtro/>
       <Catalogo/>
       <Banner/>
+      <Feature/>
+      <Footer/>
     </>
   );
 }

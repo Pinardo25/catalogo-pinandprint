@@ -147,3 +147,5 @@ body {
     rgba(0,0,0,0.04) 40px
   );
 }
+.footer-input::placeholder { color: rgba(255,255,255,0.5); }
+.footer-input:focus { border-color: var(--amarilloPrint); outline: none; }
