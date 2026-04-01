@@ -1,26 +1,24 @@
-import Image from "next/image";
 import Navbar from "../components/navbar";
 import Hero from "../components/hero";
-import {Filtro} from "../components/filtro";
-import {Marque} from "../components/marque";
+import { Marquee } from "../components/marquee";
 import Catalogo from "../components/catalogo";
+import Favorites from "../components/favorites";
 import Banner from "../components/banner";
 import Feature from "../components/feature";
 import Footer from "../components/footer";
+import Providers from "../components/providers";
 
 export default function Home() {
   return (
-    <>
-      <Navbar/>
-      <Hero/>
-      <Marque/>
-      <Filtro/>
-      <Catalogo/>
-      <Banner/>
-      <Feature/>
-      <Footer/>
-    </>
+    <Providers>
+      <Navbar />
+      <Hero />
+      <Marquee />
+      <Catalogo />
+      <Favorites />
+      <Banner />
+      <Feature />
+      <Footer />
+    </Providers>
   );
 }
-
-
