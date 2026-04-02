@@ -3,9 +3,9 @@
 import { useState, type FormEvent } from "react"
 
 const socialLinks = [
-	{ icon: "📸", href: "#", label: "Instagram" },
-	{ icon: "🎵", href: "#", label: "TikTok" },
-	{ icon: "💬", href: "#", label: "WhatsApp" },
+	{ icon: "📸", href: "https://www.instagram.com/pinandprint.co", label: "Instagram" },
+	{ icon: "🎵", href: "https://www.tiktok.com/@pinandprint", label: "TikTok" },
+	{ icon: "💬", href: "https://wa.me/3136458875", label: "WhatsApp" },
 ]
 
 export default function Footer() {
