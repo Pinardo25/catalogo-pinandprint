@@ -47,7 +47,7 @@ export default function Hero() {
       </div>
 
       {/* Mascota */}
-      <div className="absolute right-[5%] bottom-0 w-[clamp(160px,18vw,280px)] z-2 animate-mascotFloat">
+      <div className="absolute right-[5%] bottom-0 w-[clamp(160px,10vw,280px)] z-2 animate-mascotFloat">
         <Image src="/pinardo.svg" alt="Pinardo, mascota de Pin & Print" width={280} height={280} className="w-full h-auto" />
       </div>
 

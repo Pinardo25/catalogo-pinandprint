@@ -52,8 +52,8 @@ export function AppProvider({ children }: { children: ReactNode }) {
 
 	const addToCart = useCallback(() => {
 		if (!selectedSize) {
-				showToast("⚠️ Selecciona una talla primero")
-				return
+			showToast("⚠️ Selecciona una talla primero")
+			return
 		}
 		setCartCount(c => c + 1)
 		setModal(null)
