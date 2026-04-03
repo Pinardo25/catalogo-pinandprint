@@ -11,7 +11,7 @@ export default function Favorites() {
 	if (favoriteProducts.length === 0) return null
 
 	return (
-		<section className="py-20 px-8 max-w-350 mx-auto">
+		<section className="py-12 md:py-20 px-4 sm:px-8 max-w-350 mx-auto">
 			<div className="flex items-baseline justify-between mb-12 flex-wrap gap-4">
 				<h2 className="font-['SuperKindly'] text-[clamp(2rem,5vw,3.5rem)] text-negroPrint leading-none">
 					Tus favoritos<span className="text-naranjaPrint">.</span>

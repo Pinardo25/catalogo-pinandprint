@@ -21,7 +21,7 @@ export default function Footer() {
 
 	return (
 		<footer className="bg-verdePrint border-t-[3px] border-negroPrint pt-12 px-8 pb-8 text-blancoPrint">
-			<div className="max-w-300 mx-auto grid grid-cols-[2fr_1fr_1fr_1.5fr] gap-12">
+			<div className="max-w-300 mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-[2fr_1fr_1fr_1.5fr] gap-8 lg:gap-12">
 
 				{/* Columna marca */}
 				<div>

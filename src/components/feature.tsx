@@ -23,7 +23,7 @@ const features = [
 
 export default function Feature() {
 	return (
-		<section id="nosotros" className="py-20 px-8 bg-negroPrint border-t-[3px] border-amarilloPrint">
+		<section id="nosotros" className="py-12 md:py-20 px-4 sm:px-8 bg-negroPrint border-t-[3px] border-amarilloPrint">
 			<div className="max-w-300 mx-auto grid grid-cols-[repeat(auto-fit,minmax(220px,1fr))] gap-8 text-center">
 				{features.map(({ icon, title, text }) => (
 					<div

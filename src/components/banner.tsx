@@ -1,6 +1,6 @@
 export default function Banner() {
 	return (
-		<div id="personalizar" className="banner bg-moradoPrint border-t-[3px] border-b-[3px] border-negroPrint py-16 px-8 text-center relative overflow-hidden">
+		<div id="personalizar" className="banner bg-moradoPrint border-t-[3px] border-b-[3px] border-negroPrint py-10 md:py-16 px-4 sm:px-8 text-center relative overflow-hidden">
 			<div className="relative z-1 max-w-175 mx-auto">
 				<h2 className="font-['SuperKindly'] text-[clamp(2rem,6vw,4rem)] text-blancoPrint [webkit-text-stroke:1.5px_var(--negroPrint)] mb-4 leading-none">
 					¿Listo para tu camisa?

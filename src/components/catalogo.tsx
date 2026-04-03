@@ -21,7 +21,7 @@ export default function Catalogo() {
 			<Toast />
 			<FilterBar active={active} setActive={setActive} />
 			<main>
-				<section className="py-20 px-8 max-w-350 mx-auto relative z-1" aria-label="Catálogo de camisas">
+				<section className="py-12 md:py-20 px-4 sm:px-8 max-w-350 mx-auto relative z-1" aria-label="Catálogo de camisas">
 					<div className="flex items-baseline justify-between mb-12 flex-wrap gap-4">
 						<h2 className="font-['SuperKindly'] text-[clamp(2rem,5vw,3.5rem)] text-negroPrint leading-none">
 								Nuestro catálogo<span className="text-negroPrint">.</span>

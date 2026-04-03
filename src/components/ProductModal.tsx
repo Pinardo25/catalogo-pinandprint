@@ -124,7 +124,7 @@ export default function ProductModal() {
 						</button>
 						<button
 							onClick={() => openModal(null)}
-							className="font-['AmberlySans'] font-bold text-[0.9rem] uppercase px-6 py-3 border-2 border-negroPrint rounded-full hover:bg-negroPrint hover:text-blancoPrint transition-all duration-150"
+							className="font-['AmberlySans'] font-bold text-[0.9rem] uppercase px-6 py-3 border-2 border-negroPrint rounded-full bg-[#eee] text-negroPrint hover:bg-negroPrint hover:text-blancoPrint transition-all duration-150"
 						>
 							Cerrar
 						</button>
