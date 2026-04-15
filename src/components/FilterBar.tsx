@@ -1,7 +1,6 @@
 "use client"
 
 import { filters } from "../data/products"
-
 type Props = {
     active: string
     setActive: (f: string) => void

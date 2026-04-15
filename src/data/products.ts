@@ -13,38 +13,38 @@ export type Product = {
 
 export const products: Product[] = [
 	{
-		id: 1, name: "Pinardo Original", category: "anime",
+		id: 1, name: "Jujutsu", category: "anime",
 		tag: "new", tagLabel: "Nuevo",
 		price: 65000, originalPrice: null,
 		desc: "La camisa oficial de la mascota. Pinardo en todo su esplendor con diseño exclusivo de alta calidad.",
 		colors: ["#a772f2", "#eaacf2", "#1a1a1a"],
-		img: "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=600&q=80"
+		img: "https://res.cloudinary.com/dopa1ol1d/image/upload/q_auto/f_auto/c_pad,w_512,h_384/v1776208576/JU-05_dkzckh.png"
 	},
 	{
-		id: 2, name: "Blob Retro", category: "gamers",
+		id: 2, name: "Blob Retro", category: "anime",
 		tag: "hot", tagLabel: "🔥 Más vendido",
 		price: 58000, originalPrice: 72000,
 		desc: "Estética retro-pop con formas orgánicas en la paleta de colores Pin & Print. Vibe 70s.",
 		colors: ["#f2d95c", "#f24c3d", "#29733c"],
-		img: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&q=80"
+		img: "https://res.cloudinary.com/dopa1ol1d/image/upload/q_auto/f_auto/c_pad,w_512,h_384/v1776208575/JU-06_xyu30e.png"
 	},
 	{
-		id: 3, name: "Minimal Verde", category: "bandas",
+		id: 3, name: "Minimal Verde", category: "anime",
 		tag: null, tagLabel: null,
 		price: 52000, originalPrice: null,
 		desc: "Líneas simples, máximo impacto. Bordado minimalista en tono verde bosque.",
 		colors: ["#29733c", "#fafaf5"],
-		img: "https://images.unsplash.com/photo-1586790170083-2f9ceadc732d?w=600&q=80"
+		img: "https://res.cloudinary.com/dopa1ol1d/image/upload/q_auto/f_auto/c_pad,w_512,h_384/v1776208575/JU-07_cdswpt.png"
 	},
 	{
-		id: 4, name: "Galaxia Lila", category: "peliculas y series",
+		id: 4, name: "Galaxia Lila", category: "anime",
 		tag: "limited", tagLabel: "⭐ Limitada",
 		price: 78000, originalPrice: null,
 		desc: "Ilustración de galaxia con puntos estelares en tonos lilas, morados y blancos. Solo 30 unidades.",
 		colors: ["#a772f2", "#eaacf2", "#1a1a1a"],
-		img: "https://images.unsplash.com/photo-1523381210434-271e8be1f52b?w=600&q=80"
+		img: "https://res.cloudinary.com/dopa1ol1d/image/upload/q_auto/f_auto/c_pad,w_512,h_384/v1776208192/JUJUTSU_omsfga.png"
 	},
-	{
+	/* {
 		id: 5, name: "Acid Yellow", category: "otros",
 		tag: "hot", tagLabel: "🔥 Popular",
 		price: 60000, originalPrice: null,
@@ -107,7 +107,7 @@ export const products: Product[] = [
 		desc: "Camisa negra con estampado fosforescente verde. Brilla en la oscuridad. Solo 20 unidades.",
 		colors: ["#1a1a1a", "#29733c"],
 		img: "https://images.unsplash.com/photo-1593032465175-481ac7f401a0?w=600&q=80"
-	},
+	}, */
 ]
 
 export const badgeClasses: Record<string, string> = {

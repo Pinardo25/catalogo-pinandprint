@@ -5,6 +5,7 @@ import Image from "next/image"
 import { useApp } from "../context/AppContext"
 import { formatPrice } from "../lib/utils"
 
+
 export default function ProductModal() {
 	const { modal, openModal, selectedSize, setSelectedSize, addToCart } = useApp()
 	const returnFocusRef = useRef<HTMLElement | null>(null)
@@ -71,13 +72,13 @@ export default function ProductModal() {
 				onClick={e => e.stopPropagation()}
 				className="bg-blancoPrint border-[3px] border-negroPrint rounded-[20px] shadow-[8px_8px_0_var(--negroPrint)] max-w-lg w-full overflow-hidden max-h-[90vh] overflow-y-auto"
 			>
-				<div className="relative w-full aspect-4/3">
+				<div className="relative w-full aspect-4/3 overflow-hidden group rounded-lg bg-gray-50 border border-gray-100 shadow-inner">
 					<Image
 						src={modal.img}
 						alt={`Camisa ${modal.name}`}
 						fill
-						sizes="(max-width: 768px) 100vw, 512px"
-						className="object-cover"
+						sizes="(max-width: 768px) 100vw, 1024px"
+						className="object-contain p-2 transition-transform duration-500 ease-in-out group-hover:scale-[1.50]"
 					/>
 				</div>
 
